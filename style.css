@@ -1,0 +1,51 @@
+:root {
+    --size: 30px;
+    --cor: rgb(171, 204, 232);
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor);
+}
+body {
+   margin: 100px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.linha {
+    display: flex;
+}
+.parede {
+    background-color: #005399;
+    color: #005399;
+}
+
+.blank {
+    box-sizing: border-box;
+    background-color: black;
+}
+.linha div {
+    min-width: var(--size);
+    min-height: var(--size);
+    max-width: var(--size) ;
+    min-width: var(--size);
+}
+.linha {
+    max-height: 30px;
+}
+
+#vitoria {
+    height: 35px;
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(107, 0, 28);
+}
+img {
+    box-sizing: border-box;
+    display: inline;
+    background-image: url("guy.png");
+    max-width: 30px;
+    max-height: 30px;
+}
